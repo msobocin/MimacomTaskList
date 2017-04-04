@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.mimacom.service.service.impl.TaskLocalServiceImpl" id="com.mimacom.service.service.TaskLocalService" />
+	<bean class="com.mimacom.service.service.impl.TaskServiceImpl" id="com.mimacom.service.service.TaskService" />
+	<bean class="com.mimacom.service.service.persistence.impl.TaskPersistenceImpl" id="com.mimacom.service.service.persistence.TaskPersistence" parent="basePersistence" />
+</beans>

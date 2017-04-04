@@ -1,0 +1,9 @@
+Bundle-Name: mimacom-service-api
+Bundle-SymbolicName: com.mimacom.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.mimacom.service.exception,\
+	com.mimacom.service.model,\
+	com.mimacom.service.service,\
+	com.mimacom.service.service.persistence
+-includeresource: META-INF/service.xml=../mimacom-service-service/service.xml
